@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(SUPABASE_URL=http://localhost SUPABASE_SERVICE_ROLE_KEY=test PORT=3099 npx tsx src/index.ts)",
+      "Bash(curl -s http://localhost:3099/health)",
+      "Bash(kill %1)"
+    ]
+  }
+}
